@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/k9legacybot.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
+    },
+    {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/k9legacybot.xml",
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
     },
@@ -8,8 +12,16 @@
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/src/main/res/xml/preferences.xml"
     },
     {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/src/main/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/squarebot.xml",
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/pushbotsens.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/pushbotsens.xml"
     },
     {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/k9usbbot.xml",
@@ -20,8 +32,24 @@
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/pushbotsens.xml"
     },
     {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/pushbot.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/k9usbbot.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9usbbot.xml"
+    },
+    {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/device_filter.xml",
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/device_filter.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/xml/squarebot.xml",
+        "source": "/Users/guntherabbot/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/squarebot.xml"
     },
     {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pushbot.xml",
