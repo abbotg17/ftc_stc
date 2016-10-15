@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_5b96e7cb505cf097a7c0ca59b619edfb0394c99a.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2a24cdb4bd53ff8f890698775608b84ab6703fe2">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_b5e4a130a6d09d7271c551cd95982827df5084eb.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_0a914834bd1a0d1490e74cde878b9570767194a4.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_27479322da48ed7c39741625c64b43b7a9f8ea99.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/d2xx_09446d3d411f7d1f52201d284cf42a2e4e991570.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_6ea8dff335921310e8ef904fc88aaddeeada7fdb.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d1b6fd1d27019574ca91258d7456f24536282aff">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_923b99e98d21b508d63ed14726f894c46ed8d139.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_d7e89f265f7a2c2898826f5aaafa88de8a79c6f8.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_a254ca454d8fb055d66e2b103d70d7180c15f28d.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b1a3a00c0ec6312741914629ed283101a3301293">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_b2f53d64670c08abaa482feab9e79da48556450a.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_1116888beceefe873a5e8d5821db3facb5b026b1.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_8cb7ef23da4da2eb27222331537e1a90fed02f41.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2d3c1f64f36d40fad525193fe087d68230c2389">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/instant-run_f452f4105ac5748896b150c477a3234b291456d9.jar" />
+    </item>
+    <item
+        jar="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
+        <dex dex="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_f218423ad9d4aeda4058a5cac99db45148aa2d28.jar" />
+    </item>
+
+</items>
