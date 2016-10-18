@@ -68,6 +68,7 @@ public class TeleDong extends OpMode //extends MyDong lol
     private int dong;
     private float superdong;
     private long supermegadong;
+    private long MyDongIsLong; // initialize my long dong
 
     /* Declare OpMode members. */
     HardwareDonger robot       = new HardwareDonger(); // use the class created to define a Pushbot's hardware

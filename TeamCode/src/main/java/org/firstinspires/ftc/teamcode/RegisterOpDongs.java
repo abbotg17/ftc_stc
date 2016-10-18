@@ -66,8 +66,9 @@ public class RegisterOpDongs
     // Un-comment any line to enable that sample.
     // Or add your own lines to register your Team opmodes.
 
-    manager.register("Bert",AutoDriveByEncoder.class);
+    manager.register("Bert",Auto.class);
     manager.register("Dong",TeleDong.class);
+    manager.register("Dick",SensorMRColor.class);
     // manager.register("Barack",SpinWheels.class);
     // Basic Templates
     // manager.register("Iterative Opmode",       TemplateOpMode_Iterative.class);

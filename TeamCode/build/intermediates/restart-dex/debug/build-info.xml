@@ -4,29 +4,29 @@
     api-level="19"
     density="hdpi"
     format="7"
-    timestamp="16253405895830"
-    token="6416510146102476877" >
+    timestamp="20305111686039"
+    token="608250839201206998" >
 
     <task
         name="javac"
-        duration="121" />
+        duration="132" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="153" />
+        duration="20" />
     <task
         name="verifier"
-        duration="45" />
+        duration="7" />
 
     <artifact
-        location="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/outputs/apk/TeamCode-debug.apk"
+        location="/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/outputs/apk/TeamCode-debug.apk"
         type="MAIN" />
 
-    <build timestamp="16253405895830" >
+    <build timestamp="20305111686039" >
         <artifact
-            location="/Users/guntherabbot/Robotics/ftc_app/TeamCode/build/outputs/apk/TeamCode-debug.apk"
+            location="/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/outputs/apk/TeamCode-debug.apk"
             type="MAIN" />
     </build>
 
