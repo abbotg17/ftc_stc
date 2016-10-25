@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a2ee08e-9568-4765-aac6-470164a982cb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" />
     </list>
     <ignored path="ftc_stc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,6 +57,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="abbotg17 &lt;abbotg17@stcva.org&gt;" />
         <option value="abbotg17" />
       </list>
     </option>
@@ -2963,7 +2962,13 @@
       <option name="project" value="LOCAL" />
       <updated>1477435790663</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merged SensorMRColor with Auto again">
+      <created>1477437575126</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1477437575126</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
