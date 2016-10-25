@@ -153,7 +153,7 @@ public class Auto extends LinearOpMode {
         colorSensor.enableLed(bLedOn);
 
         // wait for the start button to be pressed.
-        waitForStart();
+        //waitForStart();
 
         // while the op mode is active, loop and read the RGB data.
         // Note we use opModeIsActive() as our loop condition because it is an interruptible method.
@@ -239,7 +239,7 @@ public class Auto extends LinearOpMode {
         telemetry.update();
 
         // Wait for the game to start (driver presses PLAY)
-        waitForStart();
+        //waitForStart();
 
         // Step through each leg of the path,
         // Note: Reverse movement is obtained by setting a negative distance (not speed)
