@@ -43,6 +43,15 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 
 /*
  *
+ *
+ * ####
+ * #### This file is deprecated, use Auto.java instead
+ * ####
+ *
+ *
+ *
+ *
+ *
  * This is an example LinearOpMode that shows how to use
  * a Modern Robotics Color Sensor.
  *

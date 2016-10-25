@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/gta/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_shape.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/gta/Robotics/ftc_stc/FtcRobotController/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_shape.xml",
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
     },

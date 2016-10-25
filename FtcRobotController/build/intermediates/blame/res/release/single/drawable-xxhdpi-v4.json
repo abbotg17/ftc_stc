@@ -6,5 +6,9 @@
     {
         "merged": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/guntherabbot/Robotics/ftc_app/FtcRobotController/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/FtcRobotController/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/gta/Robotics/ftc_stc/FtcRobotController/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]
