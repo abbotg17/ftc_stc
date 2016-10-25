@@ -2957,7 +2957,13 @@
       <option name="project" value="LOCAL" />
       <updated>1477433695641</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merged SensorMRColor with Auto">
+      <created>1477433724479</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1477433724479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
