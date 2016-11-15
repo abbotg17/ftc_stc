@@ -68,14 +68,11 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-import org.firstinspires.ftc.robotcontroller.external.samples.HardwarePushbot;
-
 import android.app.Activity;
 import android.graphics.Color;
 import android.view.View;
 
 import com.qualcomm.ftcrobotcontroller.R;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 
 /**
@@ -110,17 +107,17 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 public class Auto extends LinearOpMode {
 
     /* Declare OpMode members. */
-    HardwarePushbot         robot   = new HardwarePushbot();   // Use a Pushbot's hardware
+    HardwareRegister         robot   = new HardwareRegister();   // Use a Pushbot's hardware
     private ElapsedTime     runtime = new ElapsedTime();
     ColorSensor colorSensor;    // Hardware Device Object
 
     static final double     COUNTS_PER_MOTOR_REV    = 420 ;    // eg: TETRIX Motor Encoder
-    static final double     DRIVE_GEAR_REDUCTION    = 2.0 ;     // This is < 1.0 if geared UP
+    static final double     DRIVE_GEAR_REDUCTION    = 1.0 ;     // This is < 1.0 if geared UP
     static final double     WHEEL_DIAMETER_INCHES   = 4.0 ;     // For figuring circumference
     static final double     COUNTS_PER_INCH         = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) /
-                                                      (WHEEL_DIAMETER_INCHES * 3.1415);
-    static final double     DRIVE_SPEED             = 0.6;
-    static final double     TURN_SPEED              = 0.5;
+                                                      (WHEEL_DIAMETER_INCHES * 3.14159);
+    static final double     DRIVE_SPEED             =   0.1;
+    static final double     TURN_SPEED              = 0.05;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -139,12 +136,9 @@ public class Auto extends LinearOpMode {
         // color of the Robot Controller app to match the hue detected by the RGB sensor.
         final View relativeLayout = ((Activity) hardwareMap.appContext).findViewById(R.id.RelativeLayout);
 
-        // bPrevState and bCurrState represent the previous and current state of the button.
-        boolean bPrevState = false;
-        boolean bCurrState = false;
 
         // bLedOn represents the state of the LED.
-        boolean bLedOn = false;
+        boolean bLedOn = true;
 
         // get a reference to our ColorSensor object.
         colorSensor = hardwareMap.colorSensor.get("color sensor");
@@ -153,59 +147,18 @@ public class Auto extends LinearOpMode {
         colorSensor.enableLed(bLedOn);
 
         // wait for the start button to be pressed.
-        //waitForStart();
+        waitForStart();
 
         // while the op mode is active, loop and read the RGB data.
         // Note we use opModeIsActive() as our loop condition because it is an interruptible method.
 
 
-        while (opModeIsActive()) {
 
-            // check the status of the x button on either gamepad.
-            bCurrState = gamepad1.x;
+        //while (opModeIsActive()){
 
-            // check for button state transitions.
-            if (bCurrState == true) {
+        //}
 
 
-                // button is transitioning to a pressed state. So Toggle LED
-                //bLedOn = !bLedOn;
-                //colorSensor.enableLed(bLedOn);
-
-
-                // update previous state variable.
-                //bPrevState = bCurrState;
-
-                // convert the RGB values to HSV values.
-                Color.RGBToHSV(colorSensor.red() * 8, colorSensor.green() * 8, colorSensor.blue() * 8, hsvValues);
-
-                // send the info back to driver station using telemetry function.
-                telemetry.addData("LED", bLedOn ? "On" : "Off");
-                telemetry.addData("Clear", colorSensor.alpha());
-                telemetry.addData("Red  ", colorSensor.red());
-                telemetry.addData("Green", colorSensor.green());
-                telemetry.addData("Blue ", colorSensor.blue());
-                telemetry.addData("Hue", hsvValues[0]);
-
-                // change the background color to match the color detected by the RGB sensor.
-                // pass a reference to the hue, saturation, and value array as an argument
-                // to the HSVToColor method.
-                relativeLayout.post(new Runnable() {
-                    public void run() {
-                        relativeLayout.setBackgroundColor(Color.HSVToColor(0xff, values));
-                    }
-                });
-
-                telemetry.update();
-                idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
-
-
-
-            }
-
-
-
-        }
 
         /**
          * End of color sensor stuff
@@ -238,14 +191,76 @@ public class Auto extends LinearOpMode {
                           robot.rightMotor.getCurrentPosition());
         telemetry.update();
 
+
+
+
+
+
         // Wait for the game to start (driver presses PLAY)
         //waitForStart();
 
         // Step through each leg of the path,
         // Note: Reverse movement is obtained by setting a negative distance (not speed)
-        encoderDrive(DRIVE_SPEED,  48,  48, 5.0);  // S1: Forward 47 Inches with 5 Sec timeout
-        //encoderDrive(TURN_SPEED,   12, -12, 4.0);  // S2: Turn Right 12 Inches with 4 Sec timeout
+        int counter = 10;
+        boolean beaconpressed = false;
+        boolean hasBeenDonged = true;
+        /**
+         *
+         *
+        encoderDrive(DRIVE_SPEED,  200,  200, 5.0);
+        // S1: Forward 47 Inches with 5 Sec timeout, sleep
+        Thread.sleep(5*1000);
+        encoderDrive(TURN_SPEED,   200, -200, 4.0);
+        // S2: Turn Right 12 Inches with 4 Sec timeout, sleep
+        Thread.sleep(5*1000);
+        encoderDrive(DRIVE_SPEED, -200, 200, 4.0);
+        Thread.sleep(5*1000);
+
+        // S3: Turn Left 47 inches with 5 second timeout, sleep
+        encoderDrive(DRIVE_SPEED, -200, -200, 5.0);
+        Thread.sleep(5*1000);
+/
+        /**
+         * Counter to activate color sensor
+         */
+
+
+
+        /**
+        while (counter>0 && beaconpressed == false){
+            counter--;
+            if (colorSensor.red()>10 && colorSensor.red()>colorSensor.blue()){
+                //move the servo to the color sensor side
+                beaconpressed = true;
+            }
+            else {
+                //move the servo to the other side
+                beaconpressed = true;
+            }
+        } **/
+
+
+
+       /*if(colorSensor.red()>colorSensor.blue() && colorSensor.red()>5)
+        {
+            encoderDrive(DRIVE_SPEED,  20,  20, 5.0);
+        }
+        if(colorSensor.blue()>4)
+        {
+            encoderDrive(DRIVE_SPEED, -20, -20, 5.0);
+        }*/
+        encoderDrive(DRIVE_SPEED, 240, 240, 15.0);
+
+
+
+
+
         //encoderDrive(DRIVE_SPEED, -24, -24, 4.0);  // S3: Reverse 24 Inches with 4 Sec timeout
+
+
+
+
+
 
 
         telemetry.addData("Path", "Complete");

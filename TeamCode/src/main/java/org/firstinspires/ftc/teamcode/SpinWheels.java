@@ -63,7 +63,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class SpinWheels extends OpMode{
 
     /* Declare OpMode members. */
-    HardwareDonger robot       = new HardwareDonger(); // use the class created to define a Pushbot's hardware
+    HardwareRegister robot       = new HardwareRegister(); // use the class created to define a Pushbot's hardware
                                                          // could also use HardwarePushbotMatrix class.
 
 

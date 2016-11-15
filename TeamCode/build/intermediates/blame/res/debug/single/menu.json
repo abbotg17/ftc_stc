@@ -4,20 +4,8 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
     },
     {
-        "merged": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/menu/menu_server.xml",
-        "source": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
-    },
-    {
-        "merged": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/menu/main_menu.xml",
-        "source": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/menu/menu_server.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
-    },
-    {
-        "merged": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
-        "source": "/Users/guntherabbot/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/ftc_stc/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
