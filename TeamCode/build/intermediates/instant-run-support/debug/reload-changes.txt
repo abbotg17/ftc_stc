@@ -1,2 +1,2 @@
-CHANGED,/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/Auto$override.class
 CHANGED,/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/teleoptank$override.class

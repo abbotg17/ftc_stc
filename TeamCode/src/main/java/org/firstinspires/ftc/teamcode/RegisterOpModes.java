@@ -34,8 +34,6 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegistrar;
 
-import org.firstinspires.ftc.robotcontroller.external.samples.FTCRobotics2016.*;
-import org.firstinspires.ftc.robotcontroller.external.samples.FTCRobotics2016.TeleOp1;
 
 /**
  * This class demonstrates how to manually register opmodes.
@@ -61,49 +59,13 @@ import org.firstinspires.ftc.robotcontroller.external.samples.FTCRobotics2016.Te
  * Then uncomment and copy the manager.register() call to register as many of your OpModes as you like.
  * You can even use it to temporarily register samples directly from the robotController/external/samples folder.
  */
-public class RegisterOpModes
-{
+public class RegisterOpModes {
 
   @OpModeRegistrar
   public static void registerMyOpModes(OpModeManager manager) {
-    // Un-comment any line to enable that sample.
-    // Or add your own lines to register your Team opmodes.
 
     manager.register("Auto",Auto.class);
-    manager.register("DriverControlled", TeleOp1.class);
-    manager.register("TestColorSensor",SensorMRColor.class);
-    manager.register("TestNew",teleoptank.class);
-    // manager.register("Barack",SpinWheels.class);
-    // Basic Templates
-    // manager.register("Iterative Opmode",       TemplateOpMode_Iterative.class);
-    // manager.register("Linear Opmode",          TemplateOpMode_Linear.class);
+    manager.register("DriverControlled",DriverControlled.class);
 
-    // Driving Samples
-    // manager.register("Teleop POV",             PushbotTeleopPOV_Linear.class);
-    // manager.register("Teleop Tank",            PushbotTeleopTank_Iterative.class);
-    // manager.register("Auto Drive Gyro",        PushbotAutoDriveByGyro_Linear.class);
-    // manager.register("Auto Drive Encoder",     PushbotAutoDriveByEncoder_Linear.class);
-    // manager.register("Auto Drive Time",        PushbotAutoDriveByTime_Linear.class);
-    // manager.register("Auto Drive Line",        PushbotAutoDriveToLine_Linear.class);
-    // manager.register("K9 Telop",               K9botTeleopTank_Linear.class);
-
-    // Sensor Samples
-    // manager.register("AdaFruit Color",         SensorAdafruitRGB.class);
-    // manager.register("HT Color",               SensorHTColor.class);
-    // manager.register("LEGO Light",             SensorLEGOLight.class);
-    // manager.register("LEGO Touch",             SensorLEGOTouch.class);
-    // manager.register("MR Color",               SensorMRColor.class);
-    // manager.register("MR Gyro",                SensorMRGyro.class);
-    // manager.register("MR IR Seeker",           SensorMRIrSeeker.class);
-    // manager.register("MR ODS",                 SensorMROpticalDistance.class);
-
-    //  Concept Samples
-    // manager.register("Compass Calibration",    ConceptCompassCalibration.class);
-    // manager.register("DIM as Indicator",       ConceptDIMAsIndicator.class);
-    // manager.register("I2C Address Change",     ConceptI2cAddressChange.class);
-    // manager.register("Ramp Motor Speed",       ConceptRampMotorSpeed.class);
-    // manager.register("Scan Servo",             ConceptScanServo.class);
-    // manager.register("Telemetry",              ConceptTelemetry.class);
-    // manager.register("Vuforia Navigation",     ConceptVuforiaNavigation.class);
   }
 }

@@ -12,12 +12,12 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
     },
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/pwms.xml",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_config_wifi_direct.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_config_wifi_direct.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/pwms.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/red_line.xml",
@@ -92,12 +92,12 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/orange_warning.xml"
     },
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/servo.xml",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/digital_devices.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/digital_devices.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/servo.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/analog_outputs.xml",
@@ -168,12 +168,12 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/device_interface_module.xml"
     },
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/i2c_device.xml",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2c_device.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/item_list_parent.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/item_list_parent.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/i2c_device.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2c_device.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/servo_list.xml",

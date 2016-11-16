@@ -5,180 +5,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2ee08e-9568-4765-aac6-470164a982cb" name="Default" comment="Merged SensorMRColor with Auto again">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/HardwareDonger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/TeleDong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/HardwareDonger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/TeleDong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_2985a50e8459b8e02c8ac92d7e7e1973fd89b1b3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/d2xx_ee68c0d66dd65f360412ef4795f0e639aa67a13b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_5e092aeb0bc9b5c07cf24219174b7038870b0599.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_4880315cfadc7ed40334df75d1168259f354424a.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run_dc1be03d50d90f4a66a54fd4a8ac62b4189d6d37.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_709ebf35e8ade78a0c040021cb599d2b34f347b1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_945727812e00b7e73b87b01d1d1b586d8aeccd16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_1e6939a23c8187bc350e55e6d0269d9aaae92c98.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_a8b93782d971ca039bb233b68f1c04f06d2311fa.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_c9edaee5a49ca52601b943edccf193c7a278638d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_869150769667bf4b73363cec621a8623b46820db.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_cf87ae04416133ab158f9ce9f224c341a9455f9d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_4fc90ee342addae491a1bd731f8696a2d81aa8bf.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/main_fa55463cfb2d2cbc386fd0d7be1bcdbd993e2024.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_5da2dd37a7ca0ef4651c7b734be1ed549475024e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/com/qualcomm/ftcrobotcontroller/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/AutoBlue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/AutoRed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/ConceptRegisterOpModesTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/TeleOp1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbotMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/RegisterOpModes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorHTColor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorHTColor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorLEGOLight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorLEGOTouch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/TemplateOpMode_Iterative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/external/samples/TemplateOpMode_Linear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$RobotRestarter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/MatrixControllerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestBrakeFloat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestCRServo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$ColorSensorDevice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestDriveLinear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestInfiniteLoopIterative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestInfiniteLoopLinear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMaxSpeed.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorControllerFlavors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorModeSwitch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorServoLinear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestOpModeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestTelemetry$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TestTelemetry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--1128547284/org/firstinspires/ftc/robotcontroller/internal/testcode/TwoColorSensorsTelemetry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/HardwareDonger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/TeleDong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/HardwareDonger$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/SensorMRColor$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpDongs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/RegisterOpDongs$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/com/qualcomm/ftcrobotcontroller/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/AutoBlue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/AutoRed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/ConceptRegisterOpModesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/FTCRobotics2016/TeleOp1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbotMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/RegisterOpModes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMUCalibration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorHTColor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorHTColor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorLEGOLight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorLEGOTouch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/TemplateOpMode_Iterative.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/external/samples/TemplateOpMode_Linear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$RobotRestarter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/MatrixControllerDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestBrakeFloat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestCRServo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors$ColorSensorDevice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestColorSensors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestDriveLinear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestInfiniteLoopIterative.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestInfiniteLoopLinear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMaxSpeed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorControllerFlavors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorModeSwitch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestMotorServoLinear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestOpModeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestTelemetry$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TestTelemetry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/build/tmp/expandedArchives/classes.jar_16b64s186t0ud5885dfgyi0jh/org/firstinspires/ftc/robotcontroller/internal/testcode/TwoColorSensorsTelemetry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SensorMRColor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SpinWheels.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_FtcRobotController_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/classes/release/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/classes/release/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/classes/release/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/classes/release/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-release.aar" afterPath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/Auto.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/Auto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SensorMRColor.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SensorMRColor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SpinWheels.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/SpinWheels.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_stc/FtcRobotController/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_stc/FtcRobotController/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/TeleOp1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/TeleOp1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/teleoptank.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/teleoptank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/Auto.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/Auto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SensorMRColor.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SensorMRColor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SpinWheels.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/SpinWheels.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/TeleOp1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/TeleOp1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/teleoptank.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental-verifier/debug/org/firstinspires/ftc/teamcode/teleoptank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_103ebfd0ded9646254ae400fa4fd385aa83f79a1.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_103ebfd0ded9646254ae400fa4fd385aa83f79a1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/d2xx_6e0a294f0f99a001fcbee6bdcb672522ba84518d.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/d2xx_6e0a294f0f99a001fcbee6bdcb672522ba84518d.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_4cf13528f560e578bf58f30b90ba1f34367d2b0b.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_4cf13528f560e578bf58f30b90ba1f34367d2b0b.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_f65f0a4311c1e5148660229ca79bf62a810ae9df.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_f65f0a4311c1e5148660229ca79bf62a810ae9df.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run_da4c4839f5c5144477eca799db92839b19589b49.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/instant-run_da4c4839f5c5144477eca799db92839b19589b49.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_591ccfa764ecf29c9cdbbac981138455f6cddbed.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_591ccfa764ecf29c9cdbbac981138455f6cddbed.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_f5db5c83fa4ca1ab88a32bc2588bbe8abe173e70.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_f5db5c83fa4ca1ab88a32bc2588bbe8abe173e70.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_4d4f3c0550c63ae79db07913401f9add62f8cb0e.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_4d4f3c0550c63ae79db07913401f9add62f8cb0e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_818112c76510509f3745915d65ede4145c9121ab.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_818112c76510509f3745915d65ede4145c9121ab.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_de9cd0a65a7263336901b231492f5dafb3c2fd25.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_de9cd0a65a7263336901b231492f5dafb3c2fd25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_782e7739ef52213763c7763dba6771019459fb91.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_782e7739ef52213763c7763dba6771019459fb91.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_67cc287a38715c3d42f9bd7c8cae2295c4f71b84.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_67cc287a38715c3d42f9bd7c8cae2295c4f71b84.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_be96d02ab62583eb82ce145d3d62080e1e56a344.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_be96d02ab62583eb82ce145d3d62080e1e56a344.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/main_59d1b2dbc4336c0809a3b4e99b0d59ef4ec2c06e.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/main_59d1b2dbc4336c0809a3b4e99b0d59ef4ec2c06e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_81b7801c98b61d0b0d93760777407816955495b5.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_81b7801c98b61d0b0d93760777407816955495b5.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/Auto.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/Auto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/RegisterOpDongs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SensorMRColor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SensorMRColor.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SensorMRColor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SpinWheels.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/SpinWheels.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/HardwareRegister.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/HardwareRegister.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/TeleOp1.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/TeleOp1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/teleoptank.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/1/5/main/org/firstinspires/ftc/teamcode/teleoptank.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/Auto$override.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/teamcode/Auto$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug-unaligned.apk" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug.apk" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.java" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.java" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-sw720dp-land-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-sw720dp-land-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/menu.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/raw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/xml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/instant-run-support/debug/reload-changes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java" />
     </list>
     <ignored path="ftc_stc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,27 +168,15 @@
     <favorites_list name="ftc_stc" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Auto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="309" column="69" selection-start-line="309" selection-start-column="69" selection-end-line="309" selection-end-column="69" />
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="119" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Auto#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorMRColor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,31 +186,52 @@
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverControlled.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.615193">
+              <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterOpModes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#RegisterOpModes#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TeleOp1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/TeleOp1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="147" column="41" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterOpModes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java">
+      <file leaf-file-name="ConceptScanServo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3325031">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -2734,15 +2713,18 @@
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleDong.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareDonger.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpDongs.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/TeleOp1.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java" />
       </list>
     </option>
   </component>
@@ -2776,18 +2758,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ftc_stc" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2818,16 +2797,9 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftc_stc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2835,6 +2807,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="3a22a25" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -3201,28 +3174,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40794224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22893773" sideWeight="0.5042118" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1947497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21794872" sideWeight="0.49578822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3231,6 +3204,35 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40794224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21794872" sideWeight="0.49578822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22893773" sideWeight="0.5042118" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3257,6 +3259,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3268,7 +3278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SensorMRColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
@@ -3288,31 +3298,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3320,7 +3309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3336,7 +3324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3351,7 +3338,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SensorMRColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
@@ -3371,31 +3358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwareK9bot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3403,7 +3369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3419,7 +3384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3441,7 +3405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SensorMRColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3469,14 +3433,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SpinWheels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SpinWheels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
@@ -3511,80 +3475,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325031">
-          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23582475">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/hardware/ColorSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SpinWheels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SensorMRColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/teleoptank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/hardware/DcMotor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325031">
-          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SpinWheels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="309" column="69" selection-start-line="309" selection-start-column="69" selection-end-line="309" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Auto#0" expanded="false" />
-          </folding>
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3592,23 +3494,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325031">
           <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/hardware/DcMotorImpl.java">
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/TemplateOpMode_Iterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43960148">
-          <caret line="259" column="34" selection-start-line="259" selection-start-column="34" selection-end-line="259" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="-0.2702366">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.java">
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbotMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.626401">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.3325031">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07098381">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50435865">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="34" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -3616,24 +3529,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5516812">
           <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp1.java">
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/K9botTeleopTank_Linear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.626401">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/SensorMRColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7198008">
+          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.435567">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.044832">
+          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+          <folding>
+            <element signature="e#6878#6879#0" expanded="false" />
+            <element signature="e#6938#6939#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/util/Range.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325031">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-23/android.jar!/java/lang/System.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18024032">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/hardware/DcMotorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325031">
+          <caret line="245" column="26" selection-start-line="245" selection-start-column="26" selection-end-line="245" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/com/qualcomm/robotcore/hardware/DcMotor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6525528">
+          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Deprecated/TeleOp1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="41" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#RegisterOpModes#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="119" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Auto#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.615193">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
           <folding />
         </state>
       </provider>

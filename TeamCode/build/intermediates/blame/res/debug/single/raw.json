@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/raw/chimeconnect.wav"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/raw/texture_fragment_shader.glsl",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/raw/chimeconnect.wav"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/raw/warningmessage.wav",
