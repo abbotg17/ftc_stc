@@ -28,7 +28,7 @@ public class HardwareRegister
     public DcMotor  rightMotor  = null;
     public DcMotor  launchMotor = null;
     public DcMotor  sweeperMotor = null;
-    //public Servo    beaconServo = null;
+    public Servo    beaconServo = null;
     public ColorSensor  colorSensor = null;
 
     // Servo stuff, this needs to be set later
@@ -68,14 +68,14 @@ public class HardwareRegister
         sweeperMotor.setPower(0);
 
         // Set all motors to run without encoders.
-        // May want to use RUN_USING_ENCODERS if encoders are installed.
+        // May want to use RUN_USING_ENCODER if encoders are installed.
         leftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         launchMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         sweeperMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
         // Get servos working
-        //beaconServo = hwMap.servo.get("beacon_servo");
+        beaconServo = hwMap.servo.get("beacon_servo");
 
 
     }

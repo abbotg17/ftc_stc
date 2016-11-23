@@ -66,6 +66,6 @@ public class RegisterOpModes {
 
     manager.register("Auto",Auto.class);
     manager.register("DriverControlled",DriverControlled.class);
-
+    manager.register("garbage",pieceofshit.class);
   }
 }

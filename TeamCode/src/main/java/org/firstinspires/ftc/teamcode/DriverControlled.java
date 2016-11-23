@@ -37,6 +37,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
@@ -63,10 +64,13 @@ import org.firstinspires.ftc.teamcode.HardwareRegister;
 
 public class DriverControlled extends LinearOpMode {
 
-    /* Declare OpMode members. */
+    /**
+     * Declare OpMode members.
+     */
     HardwareRegister   robot           = new HardwareRegister();              // Use a K9'shardware
 
-    boolean sweeperToggle = false;
+    double  position = (MAX_POS - MIN_POS) / 2; // Start at halfway position
+    boolean rampUp = true;
 
 
     /**
@@ -81,11 +85,22 @@ public class DriverControlled extends LinearOpMode {
     static final double     DRIVE_SPEED             =   0.3;
     static final double     TURN_SPEED              = 0.2;
 
+    /**
+     * Servo stuff
+     */
+    static final double INCREMENT   = 0.01;     // amount to slew servo each CYCLE_MS cycle
+    static final int    CYCLE_MS    =   50;     // period of each cycle
+    static final double MAX_POS     =  1.0;     // Maximum rotational position
+    static final double MIN_POS     =  0.0;     // Minimum rotational position
+
 
     @Override
     public void runOpMode() throws InterruptedException {
         double left;
         double right;
+
+        /* Servo stuff */
+
 
         /* Initialize the hardware variables.
          * The init() method of the hardware class does all the work here
@@ -102,50 +117,55 @@ public class DriverControlled extends LinearOpMode {
         // run until the end of the match (driver presses STOP)
         while (opModeIsActive()) {
 
-
-            /* THIS IS OLD
-
             // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
             left = -gamepad1.left_stick_y;
             right = -gamepad1.right_stick_y;
-            robot.leftMotor.setPower(left);
-            robot.rightMotor.setPower(right);
-
+            //robot.leftMotor.setPower(left);
+            //robot.rightMotor.setPower(right);
+            robot.leftMotor.setPower(1);
+            robot.rightMotor.setPower(1);
             // Send telemetry message to signify robot running;
 
             telemetry.addData("left",  "%.2f", left);
             telemetry.addData("right", "%.2f", right);
             telemetry.update();
 
-            */
 
-            // Toggle for sweeper motor
-            if (gamepad1.a) {
-                sweeperToggle = !sweeperToggle;
-            }
 
-            // launch one ball
+            // launch_motor goes 1 full rotation, launch one ball
             if (gamepad1.b) {
-                flipper(DRIVE_SPEED,(-4*3.14159),30.0);
+                flipper(DRIVE_SPEED,-1,30.0);
             }
             if (gamepad1.y) {
-                flipper(DRIVE_SPEED,(2*3.14159),30.0);
+                flipper(DRIVE_SPEED,0.5,30.0);
 
             }
+
+            // toggle sweeper on or off
             if (gamepad1.x) {
-                flipper(DRIVE_SPEED, (-2*3.14159),30.0);
+                if (robot.sweeperMotor.isBusy()) {
+                    robot.sweeperMotor.setPower(0);
+                } else {
+                    robot.sweeperMotor.setPower(1);
+                }
+            }
+
+            // toggle servo
+            if (gamepad1.left_bumper) {
+                if (robot.beaconServo.getPosition() == 1) {
+                    robot.beaconServo.setPosition(0);
+                } else {
+                    robot.beaconServo.setPosition(1);
+                }
+
             }
 
 
 
+
             }
 
-            // Sets power for sweeperMotor based on the toggle boolean
-            if (sweeperToggle) {
-                robot.sweeperMotor.setPower(1);
-            } else {
-                robot.sweeperMotor.setPower(0);
-            }
+
 
             // Pause for metronome tick.  40 mS each cycle = update 25 times a second.
             robot.waitForTick(40);
@@ -174,7 +194,7 @@ public class DriverControlled extends LinearOpMode {
             // Determine new target position, and pass to motor controller
             //newLeftTarget = robot.launchMotor.getCurrentPosition() + (int) (leftInches * COUNTS_PER_INCH);
             //newRightTarget = robot.sweeperMotor.getCurrentPosition() + (int) (rightInches * COUNTS_PER_INCH);
-            newTarget = robot.launchMotor.getTargetPosition() + (int)(rotations * 420);
+            newTarget = robot.launchMotor.getCurrentPosition() + (int)(rotations * COUNTS_PER_MOTOR_REV);
             robot.launchMotor.setTargetPosition(newTarget);
 
             // Turn On RUN_TO_POSITION
@@ -183,7 +203,6 @@ public class DriverControlled extends LinearOpMode {
             // reset the timeout time and start motion.
             runtime.reset();
             robot.launchMotor.setPower(Math.abs(speed));
-            robot.sweeperMotor.setPower(Math.abs(speed));
 
             // keep looping while we are still active, and there is time left, and the motor is running.
             while (opModeIsActive() &&

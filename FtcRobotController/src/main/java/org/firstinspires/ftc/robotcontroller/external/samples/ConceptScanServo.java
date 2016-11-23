@@ -5,7 +5,6 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
-
 /**
  * This OpMode scans a single servo back and forwards until Stop is pressed.
  * The code is structured as a LinearOpMode
