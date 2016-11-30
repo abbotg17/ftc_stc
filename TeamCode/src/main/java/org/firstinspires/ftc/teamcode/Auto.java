@@ -60,20 +60,19 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
+ 
 package org.firstinspires.ftc.teamcode;
-
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
-
 import android.app.Activity;
 import android.graphics.Color;
 import android.view.View;
-
 import com.qualcomm.ftcrobotcontroller.R;
 import com.qualcomm.robotcore.hardware.ColorSensor;
+import java.lang.Math;
 
 /**
  * This file illustrates the concept of driving a path based on encoder counts.
@@ -107,17 +106,17 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 public class Auto extends LinearOpMode {
 
     /* Declare OpMode members. */
-    HardwareRegister         robot   = new HardwareRegister();   // Use a Pushbot's hardware
-    private ElapsedTime     runtime = new ElapsedTime();
+    HardwareRegister robot = new HardwareRegister();   // Use a Pushbot's hardware
+    private ElapsedTime runtime = new ElapsedTime();
     ColorSensor colorSensor;    // Hardware Device Object
 
-    static final double     COUNTS_PER_MOTOR_REV    = 420 ;    // eg: TETRIX Motor Encoder
-    static final double     DRIVE_GEAR_REDUCTION    = 1.0 ;     // This is < 1.0 if geared UP
-    static final double     WHEEL_DIAMETER_INCHES   = 4.0 ;     // For figuring circumference
-    static final double     COUNTS_PER_INCH         = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) /
-                                                      (WHEEL_DIAMETER_INCHES * 3.14159);
-    static final double     DRIVE_SPEED             =   0.1;
-    static final double     TURN_SPEED              = 0.2;
+    static final double COUNTS_PER_MOTOR_REV = 420;    // eg: TETRIX Motor Encoder
+    static final double DRIVE_GEAR_REDUCTION = 1.0;     // This is < 1.0 if geared UP
+    static final double WHEEL_DIAMETER_INCHES = 4.0;     // For figuring circumference
+    static final double COUNTS_PER_INCH = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) /
+            (WHEEL_DIAMETER_INCHES * Math.PI);
+    static final double DRIVE_SPEED = 0.1;
+    static final double TURN_SPEED = 0.2;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -127,7 +126,7 @@ public class Auto extends LinearOpMode {
          */
 
         // hsvValues is an array that will hold the hue, saturation, and value information.
-        float hsvValues[] = {0F,0F,0F};
+        float hsvValues[] = {0F, 0F, 0F};
 
         // values is a reference to the hsvValues array.
         final float values[] = hsvValues;
@@ -153,17 +152,14 @@ public class Auto extends LinearOpMode {
         // Note we use opModeIsActive() as our loop condition because it is an interruptible method.
 
 
-
         //while (opModeIsActive()){
 
         //}
 
 
-
         /**
          * End of color sensor stuff
          */
-
 
 
         /**
@@ -186,91 +182,75 @@ public class Auto extends LinearOpMode {
         robot.rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
         // Send telemetry message to indicate successful Encoder reset
-        telemetry.addData("Path0",  "Starting at %7d :%7d",
-                          robot.leftMotor.getCurrentPosition(),
-                          robot.rightMotor.getCurrentPosition());
+        telemetry.addData("Path0", "Starting at %7d :%7d",
+                robot.leftMotor.getCurrentPosition(),
+                robot.rightMotor.getCurrentPosition());
         telemetry.update();
-
-
-
-
 
 
         // Wait for the game to start (driver presses PLAY)
         //waitForStart();
 
-        // Step through each leg of the path,
-        // Note: Reverse movement is obtained by setting a negative distance (not speed)
-        int counter = 10;
-        boolean beaconpressed = false;
-        boolean hasBeenDonged = true;
-        /**
-         *
-         *
-        encoderDrive(DRIVE_SPEED,  200,  200, 5.0);
-        // S1: Forward 47 Inches with 5 Sec timeout, sleep
-        Thread.sleep(5*1000);
-        encoderDrive(TURN_SPEED,   200, -200, 4.0);
-        // S2: Turn Right 12 Inches with 4 Sec timeout, sleep
-        Thread.sleep(5*1000);
-        encoderDrive(DRIVE_SPEED, -200, 200, 4.0);
-        Thread.sleep(5*1000);
 
-        // S3: Turn Left 47 inches with 5 second timeout, sleep
-        encoderDrive(DRIVE_SPEED, -200, -200, 5.0);
-        Thread.sleep(5*1000);
-/
-        /**
-         * Counter to activate color sensor
-         */
+        // forward is negative for autonomous mode
+        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
+        encoderDrive(DRIVE_SPEED, -30, 30, 15.0); // turn left 12 inches
+        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
 
+        sleep(10000);
 
+        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
+        encoderDrive(DRIVE_SPEED, -30, 15, 15.0); // turn left 12 inches
+        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
 
-        /**
-        while (counter>0 && beaconpressed == false){
-            counter--;
-            if (colorSensor.red()>10 && colorSensor.red()>colorSensor.blue()){
-                //move the servo to the color sensor side
-                beaconpressed = true;
+        sleep(10000);
+
+        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
+        encoderDrive(DRIVE_SPEED, -30, 0, 15.0); // turn left 12 inches
+        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
+
+        sleep(10000);
+
+        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
+        encoderDrive(DRIVE_SPEED, -15, 30, 15.0); // turn left 12 inches
+        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
+
+        sleep(10000);
+
+        // check color
+        if (colorSensor.red() > colorSensor.blue() && colorSensor.red() > 5) {
+            for (int i = 0; i < 10; i++) {
+                if (i % 2 == 0) {
+                    robot.beaconServo.setPosition(1.0);
+                } else {
+                    robot.beaconServo.setPosition(0.8);
+                }
             }
-            else {
-                //move the servo to the other side
-                beaconpressed = true;
+        } else {
+            for (int i = 0; i < 10; i++) {
+                if (i % 2 == 0) {
+                    robot.beaconServo.setPosition(0);
+                } else {
+                    robot.beaconServo.setPosition(0.2);
+                }
             }
-        } **/
-
-
-        /*
-       if(colorSensor.red()>colorSensor.blue() && colorSensor.red()>5)
-        {
-            encoderDrive(DRIVE_SPEED,  20,  20, 5.0);
         }
-        if(colorSensor.blue()>4)
-        {
-            encoderDrive(DRIVE_SPEED, -20, -20, 5.0);
-        }
-        */
 
 
-        encoderDrive(DRIVE_SPEED, 240, 240, 15.0);
+        flipper(1.0, -1, 5.0);
+        robot.sweeperMotor.setPower(1);
+        sleep(1000);
+        flipper(1.0, -1, 5.0);
 
-
-
-
-
-        //encoderDrive(DRIVE_SPEED, -24, -24, 4.0);  // S3: Reverse 24 Inches with 4 Sec timeout
-
-
-
-
-
+        robot.sweeperMotor.setPower(0);
 
 
         telemetry.addData("Path", "Complete");
         telemetry.update();
     }
 
-    /*
+
+    /**
      *  Method to perfmorm a relative move, based on encoder counts.
      *  Encoders are not reset as the move is based on the current position.
      *  Move will stop if any of three conditions occur:
@@ -326,7 +306,66 @@ public class Auto extends LinearOpMode {
             robot.leftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             robot.rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
-            //  sleep(250);   // optional pause after each move
+            // Added by Gunther, should reset encoder values
+            robot.leftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+            robot.rightMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+            sleep(250);   // optional pause after each move
+        }
+    }
+
+
+    /**
+     * Method "flipper" rotates the launch motor based on the number of rotations requested
+     * Has no effect on the sweeper, that must be activated separately
+     * @param speed speed motor turns
+     * @param rotations number of full rotations motor will make (0.5 for half rotation)
+     * @param timeoutS seconds before the method times out and cancels
+     * @throws InterruptedException
+     * Re-written by Gunther
+     */
+    public void flipper(double speed, double rotations, double timeoutS)
+            throws InterruptedException {
+        int newTarget;
+
+        // Ensure that the opmode is still active
+        if (opModeIsActive()) {
+
+            // Determine new target position, and pass to motor controller
+            //newLeftTarget = robot.launchMotor.getCurrentPosition() + (int) (leftInches * COUNTS_PER_INCH);
+            //newRightTarget = robot.sweeperMotor.getCurrentPosition() + (int) (rightInches * COUNTS_PER_INCH);
+            newTarget = robot.launchMotor.getCurrentPosition() + (int) (4 * rotations * COUNTS_PER_MOTOR_REV);
+            robot.launchMotor.setTargetPosition(newTarget);
+
+            // Turn On RUN_TO_POSITION
+            robot.launchMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+            // reset the timeout time and start motion.
+            runtime.reset();
+            robot.launchMotor.setPower(Math.abs(speed));
+
+            // keep looping while we are still active, and there is time left, and the motor is running.
+            while (opModeIsActive() &&
+                    (runtime.seconds() < timeoutS) &&
+                    robot.launchMotor.isBusy()) {
+
+                // Display data on the driver station.
+                telemetry.addData("newTarget", "Running to %7d", newTarget);
+                telemetry.addData("getCurrentPosition", "Running at %7d", robot.launchMotor.getCurrentPosition());
+                telemetry.update();
+
+                // Allow time for other processes to run.
+                idle();
+            }
+
+            // Stop all motion;
+            robot.launchMotor.setPower(0);
+
+            // Turn off RUN_TO_POSITION
+            robot.launchMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+
+            // optional pause after each move
+            sleep(1000);
         }
     }
 }

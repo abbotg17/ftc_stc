@@ -1,5 +1,7 @@
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
+import android.support.annotation.MainThread;
+
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -48,7 +50,7 @@ public class ConceptScanServo extends LinearOpMode {
 
 
         // Scan servo till stop pressed.
-        while(opModeIsActive()){
+        while (opModeIsActive()) {
 
             // slew the servo, according to the rampUp (direction) variable.
             if (rampUp) {

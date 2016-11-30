@@ -2,102 +2,121 @@
 <items version="2" >
 
     <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="85cf12abc5c1d9898791ee5ca50ec25e6584f640">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_f65f0a4311c1e5148660229ca79bf62a810ae9df.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_f5db5c83fa4ca1ab88a32bc2588bbe8abe173e70.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_782e7739ef52213763c7763dba6771019459fb91.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_818112c76510509f3745915d65ede4145c9121ab.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/d2xx_6e0a294f0f99a001fcbee6bdcb672522ba84518d.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_591ccfa764ecf29c9cdbbac981138455f6cddbed.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_4d4f3c0550c63ae79db07913401f9add62f8cb0e.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_be96d02ab62583eb82ce145d3d62080e1e56a344.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_81b7801c98b61d0b0d93760777407816955495b5.jar" />
-    </item>
-    <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_103ebfd0ded9646254ae400fa4fd385aa83f79a1.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.3"
         sha1="b1a3a00c0ec6312741914629ed283101a3301293">
         <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_de9cd0a65a7263336901b231492f5dafb3c2fd25.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_591ccfa764ecf29c9cdbbac981138455f6cddbed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_4cf13528f560e578bf58f30b90ba1f34367d2b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_818112c76510509f3745915d65ede4145c9121ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/d2xx_6e0a294f0f99a001fcbee6bdcb672522ba84518d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_be96d02ab62583eb82ce145d3d62080e1e56a344.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_f5db5c83fa4ca1ab88a32bc2588bbe8abe173e70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_103ebfd0ded9646254ae400fa4fd385aa83f79a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_4d4f3c0550c63ae79db07913401f9add62f8cb0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.3"
         sha1="2a24cdb4bd53ff8f890698775608b84ab6703fe2">
         <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_67cc287a38715c3d42f9bd7c8cae2295c4f71b84.jar" />
     </item>
     <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.3"
-        sha1="6215efc48a041a69f53a8c5d50a40c960b76b3ca">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/instant-run_da4c4839f5c5144477eca799db92839b19589b49.jar" />
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_782e7739ef52213763c7763dba6771019459fb91.jar" />
     </item>
     <item
-        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/ftc_stc/FtcRobotController/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.3"
-        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
-        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_4cf13528f560e578bf58f30b90ba1f34367d2b0b.jar" />
+        sha1="6a72a0461aa515bee2ff5a2d278aa9e606113f17">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/ftc_stc-FtcRobotController-unspecified_a4561b7b579e33abec113c45409396587209497a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
+        <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_81b7801c98b61d0b0d93760777407816955495b5.jar" />
     </item>
 
 </items>

@@ -29,6 +29,8 @@ public class HardwareRegister
     public DcMotor  launchMotor = null;
     public DcMotor  sweeperMotor = null;
     public Servo    beaconServo = null;
+    //public Servo    leftBallServo = null;
+    //public Servo    rightBallServo = null;
     public ColorSensor  colorSensor = null;
 
     // Servo stuff, this needs to be set later
@@ -69,18 +71,21 @@ public class HardwareRegister
 
         // Set all motors to run without encoders.
         // May want to use RUN_USING_ENCODER if encoders are installed.
-        leftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        leftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        rightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         launchMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         sweeperMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
-        // Get servos working
+        // Define and initialize servos
         beaconServo = hwMap.servo.get("beacon_servo");
+        //leftBallServo = hwMap.servo.get("left_ball_servo");
+        //rightBallServo = hwMap.servo.get("right_ball_servo");
+
 
 
     }
 
-    /***
+    /**
      *
      * waitForTick implements a periodic delay. However, this acts like a metronome with a regular
      * periodic tick.  This is used to compensate for varying processing times for each cycle.

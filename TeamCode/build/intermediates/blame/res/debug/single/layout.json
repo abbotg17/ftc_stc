@@ -12,12 +12,12 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
     },
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_config_wifi_direct.xml",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_config_wifi_direct.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/pwms.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_config_wifi_direct.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_config_wifi_direct.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/red_line.xml",
@@ -116,12 +116,12 @@
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2cs.xml"
     },
     {
-        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_blocks.xml",
-        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
-    },
-    {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_ftc_configuration.xml",
         "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/activity_blocks.xml",
+        "source": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
     },
     {
         "merged": "/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/res/merged/debug/layout/file_info.xml",
