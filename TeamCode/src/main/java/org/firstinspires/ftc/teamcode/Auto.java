@@ -140,10 +140,10 @@ public class Auto extends LinearOpMode {
         boolean bLedOn = true;
 
         // get a reference to our ColorSensor object.
-        colorSensor = hardwareMap.colorSensor.get("color sensor");
+        //colorSensor = hardwareMap.colorSensor.get("color sensor");
 
         // Set the LED in the beginning
-        colorSensor.enableLed(bLedOn);
+        //colorSensor.enableLed(bLedOn);
 
         // wait for the start button to be pressed.
         waitForStart();
@@ -217,6 +217,7 @@ public class Auto extends LinearOpMode {
 
         sleep(10000);
 
+        /*
         // check color
         if (colorSensor.red() > colorSensor.blue() && colorSensor.red() > 5) {
             for (int i = 0; i < 10; i++) {
@@ -235,6 +236,7 @@ public class Auto extends LinearOpMode {
                 }
             }
         }
+        */
 
 
         flipper(1.0, -1, 5.0);

@@ -164,10 +164,10 @@ public class DriverControlled extends LinearOpMode {
 
             // toggle servo back and forth
             if (gamepad1.left_bumper) {
-                if (robot.beaconServo.getPosition() == 1) {
-                    robot.beaconServo.setPosition(0);
+                if (robot.beaconServo.getPosition() == 0.75) {
+                    robot.beaconServo.setPosition(0.25);
                 } else {
-                    robot.beaconServo.setPosition(1);
+                    robot.beaconServo.setPosition(0.75);
                 }
             }
 
