@@ -29,9 +29,9 @@ public class HardwareRegister
     public DcMotor  launchMotor = null;
     public DcMotor  sweeperMotor = null;
     public Servo    beaconServo = null;
-    public Servo    leftBallServo = null;
-    public Servo    rightBallServo = null;
-    public Servo    armServo = null;
+    //public Servo    leftBallServo = null;
+    //public Servo    rightBallServo = null;
+    //public Servo    armServo = null;
     public ColorSensor  colorSensor = null;
 
     // Servo stuff, this needs to be set later
@@ -79,9 +79,9 @@ public class HardwareRegister
 
         // Define and initialize servos
         beaconServo = hwMap.servo.get("beacon_servo");
-        leftBallServo = hwMap.servo.get("left_ball_servo");
-        rightBallServo = hwMap.servo.get("right_ball_servo");
-        armServo = hwMap.servo.get("arm_servo");
+        //leftBallServo = hwMap.servo.get("left_ball_servo");
+        //rightBallServo = hwMap.servo.get("right_ball_servo");
+        //armServo = hwMap.servo.get("arm_servo");
 
 
 

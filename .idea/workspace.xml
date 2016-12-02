@@ -10,22 +10,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_TeamCode_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/Auto.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/Auto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/DriverControlled.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/DriverControlled.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/HardwareRegister.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/RegisterOpModes.class" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/classes/debug/org/firstinspires/ftc/teamcode/RegisterOpModes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/debug_1a9cc58c2206f86e4f08ec93dfa87d3740e1d403.jar" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/debug_1a9cc58c2206f86e4f08ec93dfa87d3740e1d403.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug.apk" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/TeamCode-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/TeamCode.iml" afterPath="$PROJECT_DIR$/TeamCode/TeamCode.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java" />
     </list>
     <ignored path="ftc_stc.iws" />
@@ -61,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Auto.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Auto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="101" column="3" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+            <state relative-caret-position="773">
+              <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Auto#0" expanded="false" />
@@ -77,8 +70,8 @@
       <file leaf-file-name="DriverControlled.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
+            <state relative-caret-position="1380">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HardwareRegister.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HardwareRegister.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+            <state relative-caret-position="1095">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2620,6 +2613,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2708,17 +2705,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="3a22a25" />
+    <property name="device.picker.selection" value="2a255e1" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
@@ -3200,7 +3193,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3211,21 +3204,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40690377" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14468865" sideWeight="0.49578822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14468865" sideWeight="0.49578822" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22893773" sideWeight="0.5042118" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3567,7 +3560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3628,6 +3620,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/RegisterOpModes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -3641,31 +3653,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="101" column="3" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+        <state relative-caret-position="773">
+          <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Auto#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriverControlled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
