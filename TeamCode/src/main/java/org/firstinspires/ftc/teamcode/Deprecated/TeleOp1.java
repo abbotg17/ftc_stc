@@ -138,12 +138,12 @@ public class TeleOp1 extends OpMode
 
 
         // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
-        throttle = -gamepad2.left_stick_y;
-        direction = gamepad2.left_stick_x;
+        throttle = -gamepad1.left_stick_y;
+        direction = gamepad1.left_stick_x;
         left = throttle + direction;
         right = throttle - direction;
-        right = Range.clip(right, -1, 1);
-        left = Range.clip(left, -1, 1);
+        right = scaleInput(right);
+        left = scaleInput(left);
         robot.leftMotor.setPower(left);
         robot.rightMotor.setPower(right);
 
@@ -178,7 +178,7 @@ public class TeleOp1 extends OpMode
      * DT's scaling stuff
      */
 
-    /*
+
     public double scaleInput(double dVal) {
             double[] scaleArray = { 0.0, 0.05, 0.09, 0.10, 0.12, 0.15, 0.18, 0.24,
                 0.30, 0.36, 0.43, 0.50, 0.60, 0.72, 0.85, 1.00, 1.00 };
@@ -193,7 +193,7 @@ public class TeleOp1 extends OpMode
             dScale = scaleArray[index];
         }
         return dScale; }
-        */
+
     /*
      * Code to run ONCE after the driver hits STOP
      */

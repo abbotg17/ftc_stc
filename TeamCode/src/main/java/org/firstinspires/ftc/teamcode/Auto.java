@@ -101,12 +101,15 @@ import java.lang.Math;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
+/**
+ * Fuck ftc
+ */
 @Autonomous(name="Pushbot: Auto Drive By Encoder", group="Pushbot")
 @Disabled
 public class Auto extends LinearOpMode {
 
     /* Declare OpMode members. */
-    HardwareRegister robot = new HardwareRegister();   // Use a Pushbot's hardware
+    NewHardwareRegister robot = new NewHardwareRegister();   // Use a Pushbot's hardware
     private ElapsedTime runtime = new ElapsedTime();
     ColorSensor colorSensor;    // Hardware Device Object
 
@@ -137,10 +140,10 @@ public class Auto extends LinearOpMode {
 
 
         // bLedOn represents the state of the LED.
-        boolean bLedOn = true;
+        boolean bLedOn = false;
 
         // get a reference to our ColorSensor object.
-        //colorSensor = hardwareMap.colorSensor.get("color sensor");
+
 
         // Set the LED in the beginning
         //colorSensor.enableLed(bLedOn);
@@ -192,60 +195,19 @@ public class Auto extends LinearOpMode {
         //waitForStart();
 
 
-        // forward is negative for autonomous mode
-        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
-        encoderDrive(DRIVE_SPEED, -30, 30, 15.0); // turn left 12 inches
-        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
+        /**
+         * BEGIN DRIVING INSTRUCTIONS
+         * forward is negative for autonomous mode
+         */
 
-        sleep(10000);
-
-        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
-        encoderDrive(DRIVE_SPEED, -30, 15, 15.0); // turn left 12 inches
-        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
-
-        sleep(10000);
-
-        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
-        encoderDrive(DRIVE_SPEED, -30, 0, 15.0); // turn left 12 inches
-        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
-
-        sleep(10000);
-
-        encoderDrive(DRIVE_SPEED, -68.5, -68.5, 15.0); // drive 41.5 inches THIS IS ACTUAL DISTANCE
-        encoderDrive(DRIVE_SPEED, -15, 30, 15.0); // turn left 12 inches
-        encoderDrive(DRIVE_SPEED, -30, -30, 15.0);
-
-        sleep(10000);
-
-        /*
-        // check color
-        if (colorSensor.red() > colorSensor.blue() && colorSensor.red() > 5) {
-            for (int i = 0; i < 10; i++) {
-                if (i % 2 == 0) {
-                    robot.beaconServo.setPosition(1.0);
-                } else {
-                    robot.beaconServo.setPosition(0.8);
-                }
-            }
-        } else {
-            for (int i = 0; i < 10; i++) {
-                if (i % 2 == 0) {
-                    robot.beaconServo.setPosition(0);
-                } else {
-                    robot.beaconServo.setPosition(0.2);
-                }
-            }
-        }
-        */
-
-
-        flipper(1.0, -1, 5.0);
-        robot.sweeperMotor.setPower(1);
-        sleep(1000);
-        flipper(1.0, -1, 5.0);
-
-        robot.sweeperMotor.setPower(0);
-
+        encoderDrive(DRIVE_SPEED, -25, -25, 15.0); // drive forward
+        flipper(1, -1, 5.0); // shoot 1 ball
+        robot.sweeperMotor.setPower(0.7); // activate sweeper
+        sleep(2000); // pause
+        robot.sweeperMotor.setPower(0); // deactivate sweeper
+        flipper(1, -1, 5.0); // shoot 1 ball
+        encoderDrive(DRIVE_SPEED, 20, 20, 15.0);
+        encoderDrive(1.0, -80, -80, 15.0); // drive forward
 
         telemetry.addData("Path", "Complete");
         telemetry.update();

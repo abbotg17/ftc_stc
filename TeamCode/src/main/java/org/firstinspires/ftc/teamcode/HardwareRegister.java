@@ -59,6 +59,9 @@ public class HardwareRegister
         launchMotor = hwMap.dcMotor.get("launch_motor");
         sweeperMotor = hwMap.dcMotor.get("sweeper_motor");
 
+        // Define and Initialize color sensors
+        colorSensor = hwMap.colorSensor.get("color_sensor");
+
         leftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         rightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
         launchMotor.setDirection(DcMotor.Direction.FORWARD);
@@ -83,7 +86,7 @@ public class HardwareRegister
         //rightBallServo = hwMap.servo.get("right_ball_servo");
         //armServo = hwMap.servo.get("arm_servo");
 
-
+        beaconServo.setPosition(.5);
 
     }
 

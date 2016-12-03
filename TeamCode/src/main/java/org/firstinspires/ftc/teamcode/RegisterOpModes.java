@@ -34,6 +34,10 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegistrar;
 
+import org.firstinspires.ftc.robotcontroller.external.samples.K9botTeleopTank_Linear;
+import org.firstinspires.ftc.teamcode.Deprecated.DriverControlled;
+import org.firstinspires.ftc.teamcode.Deprecated.serbia;
+
 
 /**
  * This class demonstrates how to manually register opmodes.
@@ -64,8 +68,9 @@ public class RegisterOpModes {
   @OpModeRegistrar
   public static void registerMyOpModes(OpModeManager manager) {
 
-    manager.register("Auto",Auto.class);
-    manager.register("DriverControlled",DriverControlled.class);
+    manager.register("autoschlonk",Auto.class);
+    manager.register("meemos", newdrivercontrolled.class);
+    manager.register("serbia,", serbia.class);
 
   }
 }
