@@ -101,11 +101,8 @@ import java.lang.Math;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-/**
- * Fuck ftc
- */
 @Autonomous(name="Pushbot: Auto Drive By Encoder", group="Pushbot")
-@Disabled
+
 public class Auto extends LinearOpMode {
 
     /* Declare OpMode members. */
@@ -118,7 +115,7 @@ public class Auto extends LinearOpMode {
     static final double WHEEL_DIAMETER_INCHES = 4.0;     // For figuring circumference
     static final double COUNTS_PER_INCH = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) /
             (WHEEL_DIAMETER_INCHES * Math.PI);
-    static final double DRIVE_SPEED = 0.1;
+    static final double DRIVE_SPEED = 0.2;
     static final double TURN_SPEED = 0.2;
 
     @Override
@@ -200,14 +197,9 @@ public class Auto extends LinearOpMode {
          * forward is negative for autonomous mode
          */
 
-        encoderDrive(DRIVE_SPEED, -25, -25, 15.0); // drive forward
-        flipper(1, -1, 5.0); // shoot 1 ball
-        robot.sweeperMotor.setPower(0.7); // activate sweeper
-        sleep(2000); // pause
-        robot.sweeperMotor.setPower(0); // deactivate sweeper
-        flipper(1, -1, 5.0); // shoot 1 ball
-        encoderDrive(DRIVE_SPEED, 20, 20, 15.0);
-        encoderDrive(1.0, -80, -80, 15.0); // drive forward
+        encoderDrive(1, -80, -80, 15);
+        encoderDrive(DRIVE_SPEED, 20, 20, 15);
+        encoderDrive(1, -25, -25, 15);
 
         telemetry.addData("Path", "Complete");
         telemetry.update();

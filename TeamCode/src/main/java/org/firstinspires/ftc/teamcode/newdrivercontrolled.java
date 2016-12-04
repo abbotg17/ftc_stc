@@ -37,6 +37,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
+import java.lang.Math;
 
 import org.firstinspires.ftc.robotcontroller.external.samples.HardwareK9bot;
 
@@ -104,13 +105,13 @@ public class newdrivercontrolled extends LinearOpMode {
             // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
             left = -gamepad1.left_stick_y;
             right = -gamepad1.right_stick_y;
-            robot.leftMotor.setPower(left);
-            robot.rightMotor.setPower(right);
+            robot.leftMotor.setPower(left/2);
+            robot.rightMotor.setPower(right/2);
 
             // push the right button on the beacon
             if (gamepad1.left_bumper)
             {
-                robot.beaconServo.setPosition(.75);
+                robot.beaconServo.setPosition(.8);
                 robot.waitForTick(500);
                 robot.beaconServo.setPosition(.5);
             }
@@ -118,7 +119,7 @@ public class newdrivercontrolled extends LinearOpMode {
             // push the left button on the beacon
             if (gamepad1.right_bumper)
             {
-                robot.beaconServo.setPosition(.25);
+                robot.beaconServo.setPosition(.2);
                 robot.waitForTick(500);
                 robot.beaconServo.setPosition(.5);
             }
@@ -131,10 +132,10 @@ public class newdrivercontrolled extends LinearOpMode {
             // rotate flipper half a
             if (gamepad1.y) {
                 if(flipperReady) {
-                    flipper(DRIVE_SPEED, 0.5, 30.0);
+                    flipper(1, 0.5, 30.0);
                     flipperReady = !flipperReady;
                 } else if(!flipperReady) {
-                    flipper(DRIVE_SPEED, -0.5, 30.0);
+                    flipper(1, -0.5, 30.0);
                     flipperReady = !flipperReady;
                 }
             }

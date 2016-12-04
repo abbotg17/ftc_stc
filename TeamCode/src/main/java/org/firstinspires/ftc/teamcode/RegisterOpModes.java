@@ -68,9 +68,12 @@ public class RegisterOpModes {
   @OpModeRegistrar
   public static void registerMyOpModes(OpModeManager manager) {
 
-    manager.register("autoschlonk",Auto.class);
-    manager.register("meemos", newdrivercontrolled.class);
-    manager.register("serbia,", serbia.class);
-
+    manager.register("A NoFlip",Auto.class);
+    manager.register("Driver", newdrivercontrolled.class);
+    manager.register("do-not-use", serbia.class);
+    manager.register("A NoFlip 10sec", AutoAlt1.class);
+    manager.register("A Flip", AutoAlt2.class);
+    manager.register("A Flip 10sec", AutoAlt3.class);
+    manager.register("NewDriver", newdrivercontrolled_mod.class);
   }
 }

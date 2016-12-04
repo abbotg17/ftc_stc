@@ -73,6 +73,19 @@ public class NewHardwareRegister
         beaconServo.setPosition(.5);
     }
 
+    /**
+     * I rewrote the sleep() method because it wasn't in OpMode like it was in LinearOpMode
+     * because the FTC goons are dipshits
+     */
+    public void sleep(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        }
+        catch(InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+    }
+
     /***
      *
      * waitForTick implements a periodic delay. However, this acts like a metronome with a regular
@@ -93,4 +106,5 @@ public class NewHardwareRegister
         // Reset the cycle clock for the next pass.
         period.reset();
     }
+
 }
