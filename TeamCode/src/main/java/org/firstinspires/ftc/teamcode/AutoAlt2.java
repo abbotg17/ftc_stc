@@ -78,7 +78,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Same as auto except it uses the flipper
  */
 
-@Autonomous(name="Pushbot: Auto Drive By Encoder", group="Pushbot")
+@Autonomous(name="Pushbot: Auto Driv", group="Pushbot")
 public class AutoAlt2 extends LinearOpMode {
 
     /* Declare OpMode members. */

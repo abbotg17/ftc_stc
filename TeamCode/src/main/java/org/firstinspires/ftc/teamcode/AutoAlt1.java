@@ -78,7 +78,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Same as Auto but adds a ten sencond pause at the beginning
  */
 
-@Autonomous(name="Pushbot: Auto Drive By Encoder", group="Pushbot")
+@Autonomous(name="Pushbot: Auto Drive By Encod", group="Pushbot")
 public class AutoAlt1 extends LinearOpMode {
 
     /* Declare OpMode members. */

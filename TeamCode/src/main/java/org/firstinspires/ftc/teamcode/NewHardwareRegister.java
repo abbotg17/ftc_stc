@@ -1,7 +1,9 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.hardware.modernrobotics.ModernRoboticsI2cGyro;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.GyroSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
@@ -33,6 +35,7 @@ public class NewHardwareRegister
     public DcMotor  sweeperMotor = null;
     public Servo beaconServo = null;
     public ColorSensor colorSensor = null;
+    public ModernRoboticsI2cGyro gyro = null;
 
     /* Local OpMode members. */
     HardwareMap hwMap  = null;
@@ -71,12 +74,10 @@ public class NewHardwareRegister
         beaconServo = hwMap.servo.get("beacon_servo");
 
         beaconServo.setPosition(.5);
+
+        gyro = (ModernRoboticsI2cGyro)hwMap.gyroSensor.get("gyro");
     }
 
-    /**
-     * I rewrote the sleep() method because it wasn't in OpMode like it was in LinearOpMode
-     * because the FTC goons are dipshits
-     */
     public void sleep(long milliseconds) {
         try {
             Thread.sleep(milliseconds);
