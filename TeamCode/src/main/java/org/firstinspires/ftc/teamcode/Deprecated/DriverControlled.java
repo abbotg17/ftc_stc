@@ -32,18 +32,11 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
  
 package org.firstinspires.ftc.teamcode.Deprecated;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
-import com.qualcomm.robotcore.util.Range;
 
-import org.firstinspires.ftc.teamcode.HardwareRegister;
-
-import java.security.InvalidAlgorithmParameterException;
+import org.firstinspires.ftc.teamcode.Old.HardwareRegister;
 
 /**
  * This OpMode uses the common HardwareK9bot class to define the devices on the robot.
@@ -62,7 +55,7 @@ import java.security.InvalidAlgorithmParameterException;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="DriverControlled", group="stc")
+
 
 public class DriverControlled extends LinearOpMode {
 

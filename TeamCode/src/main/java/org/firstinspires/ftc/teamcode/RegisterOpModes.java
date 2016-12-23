@@ -34,9 +34,7 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegistrar;
 
-import org.firstinspires.ftc.robotcontroller.external.samples.K9botTeleopTank_Linear;
-import org.firstinspires.ftc.teamcode.Deprecated.DriverControlled;
-import org.firstinspires.ftc.teamcode.Deprecated.serbia;
+import org.firstinspires.ftc.teamcode.Old.Driver;
 
 
 /**
@@ -67,12 +65,9 @@ public class RegisterOpModes {
 
     @OpModeRegistrar
     public static void registerMyOpModes(OpModeManager manager) {
-        manager.register("A NoFlip",Auto.class);
-        manager.register("Driver", Driver.class);
-        manager.register("A NoFlip 10sec", AutoAlt1.class);
-        manager.register("A Flip", AutoAlt2.class);
-        manager.register("A Flip 10sec", AutoAlt3.class);
-        manager.register("do-not-use", serbia.class);
+        manager.register("Driver-Mechanum", Driver_Mechanum.class);
+        manager.register("Driver_Mechanum_Auto",Driver_Mechanum_Auto.class);
+
 
     }
 }

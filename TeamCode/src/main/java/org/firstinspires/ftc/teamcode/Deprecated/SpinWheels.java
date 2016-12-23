@@ -34,9 +34,8 @@ package org.firstinspires.ftc.teamcode.Deprecated;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import org.firstinspires.ftc.teamcode.HardwareRegister;
+import org.firstinspires.ftc.teamcode.Old.HardwareRegister;
 
 /**
  * This file provides basic Telop driving for a Pushbot robot.
@@ -60,7 +59,6 @@ import org.firstinspires.ftc.teamcode.HardwareRegister;
  * Copied from examples
  */
 
-@TeleOp(name="Pushbot: Teleop Tank", group="Pushbot")
 @Disabled
 public class SpinWheels extends OpMode{
 

@@ -32,15 +32,12 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 package org.firstinspires.ftc.teamcode.Deprecated;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import java.lang.Math;
 
-import org.firstinspires.ftc.robotcontroller.external.samples.HardwareK9bot;
-import org.firstinspires.ftc.teamcode.NewHardwareRegister;
+import org.firstinspires.ftc.teamcode.Old.NewHardwareRegister;
 
 /**
  * This OpMode uses the common HardwareK9bot class to define the devices on the robot.
@@ -59,8 +56,7 @@ import org.firstinspires.ftc.teamcode.NewHardwareRegister;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Driver", group="K9bot")
-@Disabled
+
 public class newdrivercontrolled extends LinearOpMode {
 
     /* Declare OpMode members. */
