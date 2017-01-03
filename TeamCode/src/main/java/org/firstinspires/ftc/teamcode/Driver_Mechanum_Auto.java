@@ -108,7 +108,7 @@ public class Driver_Mechanum_Auto  extends OpMode {
     public void start(){
         opModeIsActive = true;
         encoderDrive(1,10,-10,-10,10,20);
-
+        encoderDrive(1,15,-15,-15,15,0.0);
     }
 
 
@@ -120,7 +120,7 @@ public class Driver_Mechanum_Auto  extends OpMode {
         //turn 90 degrees to the right
         if (gamepad1.a)
         {
-            encoderDrive(0.5, 12, robot.frontLeft, 20);
+            //encoderDrive(0.5, 12, robot.frontLeft, 20);
 
         }
 
@@ -190,7 +190,6 @@ public class Driver_Mechanum_Auto  extends OpMode {
                 telemetry.update();
 
                 // Allow time for other processes to run.
-                idle();
             }
 
             // Stop all motion;
@@ -200,8 +199,8 @@ public class Driver_Mechanum_Auto  extends OpMode {
             robot.backLeft.setPower(0);
 
             // Turn off RUN_TO_POSITION
-            robot.leftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-            robot.rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+            //robot.leftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+            //robot.rightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
             // Added by Gunther, should reset encoder values
             robot.frontLeft.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
@@ -209,7 +208,7 @@ public class Driver_Mechanum_Auto  extends OpMode {
             robot.backLeft.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
             robot.backLeft.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-            sleep(250);   // optional pause after each move
+            //sleep(250);   // optional pause after each move
         }
     }
 
@@ -218,4 +217,4 @@ public class Driver_Mechanum_Auto  extends OpMode {
 
 
 
-}
+

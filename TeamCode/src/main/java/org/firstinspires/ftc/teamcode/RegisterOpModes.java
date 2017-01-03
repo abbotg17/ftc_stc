@@ -65,8 +65,7 @@ public class RegisterOpModes {
 
     @OpModeRegistrar
     public static void registerMyOpModes(OpModeManager manager) {
-        manager.register("Driver-Mechanum", Driver_Mechanum.class);
-        manager.register("Driver_Mechanum_Auto",Driver_Mechanum_Auto.class);
+        manager.register("Driver_Mechanum_Linear",Driver_Mechanum_Linear.class);
 
 
     }

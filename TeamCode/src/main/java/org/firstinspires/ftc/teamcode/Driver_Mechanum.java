@@ -119,7 +119,6 @@ public class Driver_Mechanum extends OpMode {
     //turn 90 degrees to the right
         if (gamepad1.a)
         {
-                encoderDrive(0.5, 12, 12, 20);
 
         }
 
@@ -236,7 +235,7 @@ public class Driver_Mechanum extends OpMode {
                 telemetry.update();
 
                 // Allow time for other processes to run.
-                idle();
+
             }
 
             // Stop all motion;
@@ -251,11 +250,10 @@ public class Driver_Mechanum extends OpMode {
             robot.backLeft.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
             robot.backLeft.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-            sleep(250);   // optional pause after each move
+
         }
     }
 
     }
 
 
-}

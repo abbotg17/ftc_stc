@@ -65,7 +65,7 @@ public class HardwareMap_Mechanum
         frontRight.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         backLeft.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         backRight.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        ColorSensor colorSensor
+        //ColorSensor colorSensor
     }
 
     /***
