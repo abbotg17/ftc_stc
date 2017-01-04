@@ -107,8 +107,8 @@ public class Driver_Mechanum_Auto  extends OpMode {
     @Override
     public void start(){
         opModeIsActive = true;
-        encoderDrive(1,10,-10,-10,10,20);
-        encoderDrive(1,15,-15,-15,15,0.0);
+        //encoderDrive(1,10,-10,-10,10,20);
+        //encoderDrive(1,15,-15,-15,15,0.0);
     }
 
 
@@ -120,7 +120,6 @@ public class Driver_Mechanum_Auto  extends OpMode {
         //turn 90 degrees to the right
         if (gamepad1.a)
         {
-            //encoderDrive(0.5, 12, robot.frontLeft, 20);
 
         }
 

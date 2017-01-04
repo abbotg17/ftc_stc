@@ -66,6 +66,7 @@ public class RegisterOpModes {
     @OpModeRegistrar
     public static void registerMyOpModes(OpModeManager manager) {
         manager.register("Driver_Mechanum_Linear",Driver_Mechanum_Linear.class);
+        manager.register("Stupid", K9botTeleopTank_Linear.class);
 
 
     }

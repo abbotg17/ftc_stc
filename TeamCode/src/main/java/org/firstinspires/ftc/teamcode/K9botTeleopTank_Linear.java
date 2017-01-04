@@ -35,7 +35,9 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.Range;
+import java.util.ArrayList;
 
 /**
  * This OpMode uses the common HardwareK9bot class to define the devices on the robot.
@@ -55,9 +57,14 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 public class K9botTeleopTank_Linear extends LinearOpMode {
+    private double[][] speedModes;
+    private boolean[][] dirModes;
+    private int currentDriveMode;
+    private ArrayList<DcMotor> geg;
+
 
     /* Declare OpMode members. */
-    HardwareK9bot   robot           = new HardwareK9bot();              // Use a K9'shardware
+    HardwareMap_Mechanum   robot           = new HardwareMap_Mechanum();              // Use a K9'shardware
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -73,29 +80,120 @@ public class K9botTeleopTank_Linear extends LinearOpMode {
         telemetry.addData("Say", "Hello Driver");    //
         telemetry.update();
 
+        speedModes = new double[3][3];
+        dirModes = new boolean[3][3];
+
+        //initialize forward drive mode
+        for (int j = 1; j<5; j++){
+            speedModes[0][j] = 0.5;
+        }
+        //initialize right drive mode
+        speedModes[1][0] = 0.5; speedModes[1][0] = -0.5; speedModes[1][0] = -0.5; speedModes[1][0] = 0.5;
+
+        //initialize backwards drive mode
+        for (int j = 1; j<5; j++){
+            speedModes[2][j] = -0.5;
+        }
+
+        //initialize left drive mode
+        speedModes[3][0] = -0.5; speedModes[1][0] = 0.5; speedModes[1][0] = 0.5; speedModes[1][0] = -0.5;
+        //initialize motor array
+        geg.add(robot.frontLeft);
+        geg.add(robot.frontRight);
+        geg.add(robot.backLeft);
+        geg.add(robot.backRight);
+
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
         // run until the end of the match (driver presses STOP)
         while (opModeIsActive()) {
+            if (gamepad1.dpad_up)
+            {
+                for(int j=0; j<geg.size(); j++)
+                {
+                    geg.get(j).setPower(speedModes[currentDriveMode][j]);
+                }
 
-            // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
-            left = -gamepad1.left_stick_y;
-            right = -gamepad1.right_stick_y;
-            robot.frontLeft.setPower(left);
-            robot.frontLeft.setPower(right);
+            }
+            if(gamepad1.dpad_right)
+            {
+                int rightDR;
+                if (currentDriveMode == 3)
+                {
+                    rightDR = 0;
+                }
+                else
+                {
+                    rightDR  = currentDriveMode++;
+                }
+                for(int j=0; j<geg.size(); j++)
+                {
+                    geg.get(j).setPower(speedModes[rightDR][j]);
+                }
 
-            // Use gamepad Y & A raise and lower the arm
+            }
+            if(gamepad1.dpad_down) {
+                int rightDR;
+                if (currentDriveMode == 3)
+                {
+                    rightDR = 1;
+                }
+                else if (currentDriveMode == 2)
+                {
+                    rightDR = 0;
+                }
+                else
+                {
+                    rightDR  = currentDriveMode++;
+                }
+                for(int j=0; j<geg.size(); j++)
+                {
+                    geg.get(j).setPower(speedModes[rightDR][j]);
+                }
 
-            // Send telemetry message to signify robot running;
+                if(gamepad1.dpad_left)
+                {
+                    int DR;
+                    if (currentDriveMode == 3 )
+                    {
+                        DR = 2;
+                    }
+                    else if(currentDriveMode ==2) {
+                        DR = 1;
+                    }
+                    else if (currentDriveMode == 1){
+                        DR = 0;
+                    }
+                    else
+                    {
+                        DR = 3;
+                    }
+                    for(int j=0; j<geg.size(); j++)
+                    {
+                        geg.get(j).setPower(speedModes[DR][j]);
+                    }
 
-            telemetry.addData("left",  "%.2f", left);
-            telemetry.addData("right", "%.2f", right);
-            telemetry.update();
+                }
+                if(gamepad1.a) {
+                    if (currentDriveMode == 3) {
+                        currentDriveMode = 0;
+                    } else {
+                        currentDriveMode++;
+                    }
+                }
+                }
+
+            }
+
+
+
+
 
             // Pause for metronome tick.  40 mS each cycle = update 25 times a second.
             robot.waitForTick(40);
             idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
         }
     }
-}
+
+
