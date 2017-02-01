@@ -64,7 +64,7 @@ public class Driver_Mechanum_GuntherExperiment extends LinearOpMode {
      * Make some variables
      */
     private int orientation; // orientation in DEGREES relative to start
-    
+    private static double a = 0.2; // Standard drive speed
     
 
 
@@ -74,10 +74,10 @@ public class Driver_Mechanum_GuntherExperiment extends LinearOpMode {
         telemetry.update();
 
         robot.init(hardwareMap);
-        
+
         // reset orientation
         orientation = 0;
-        
+
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
         runtime.reset();
@@ -93,37 +93,121 @@ public class Driver_Mechanum_GuntherExperiment extends LinearOpMode {
              */
 
             if (orientation == 0) {
+                // Driving forwards or backwards
+                if (gamepad1.y) {
+                    drive(a, a, a, a);
+                } else if (gamepad1.a) {
+                    drive(-a, -a, -a, -a);
 
+                    // Strafing
+                } else if (gamepad1.x) {
+                    drive(-a, a, a, -a);
+                } else if (gamepad1.b) {
+                    drive(a, -a, -a, a);
+                } /*
             } else if (orientation == 90) {
-
+                if (gamepad1.dpad_up) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_down) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_left) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_right) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                }
             } else if (orientation == 180) {
-
+                if (gamepad1.dpad_up) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_down) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_left) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_right) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                }
             } else if (orientation == 270) {
+                if (gamepad1.dpad_up) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_down) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_left) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                } else if (gamepad1.dpad_right) {
+                    robot.backLeft.setPower();
+                    robot.backRight.setPower();
+                    robot.frontRight.setPower();
+                    robot.frontLeft.setPower();
+                }
+            } */ else {
+                    robot.backLeft.setPower(0);
+                    robot.backRight.setPower(0);
+                    robot.frontRight.setPower(0);
+                    robot.frontLeft.setPower(0);
+                }
 
+
+                /**
+                 * Turning
+                 */
+
+                /*
+                // rotate 90 degrees counterclockwise
+                if (gamepad1.a) {
+                    // encoderDrive to turn wheels here...
+                    updateOrientation(false);
+                }
+
+                //rotate 90 degrees clockwise
+                if (gamepad1.b) {
+                    // encoderDrive to turn wheels here...
+                    updateOrientation(true);
+                }
+                */
+
+
+                idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
             }
-
-            /**
-             * Turning
-             */
-
-            // rotate 90 degrees counterclockwise
-            if (gamepad1.a) {
-                // encoderDrive to turn wheels here...
-                updateOrientation(false);
-            }
-
-            //rotate 90 degrees clockwise
-            if (gamepad1.b) {
-                // encoderDrive to turn wheels here...
-                updateOrientation(true);
-            }
-
-
-
-
-
-            idle(); // Always call idle() at the bottom of your while(opModeIsActive()) loop
         }
+    }
+
+    private void drive(double frontLeft, double frontRight, double backLeft, double backRight) {
+        robot.frontLeft.setPower(frontLeft);
+        robot.frontRight.setPower(frontRight);
+        robot.backLeft.setPower(backLeft);
+        robot.backRight.setPower(backRight);
     }
 
     private void updateOrientation(boolean isClockwise) {
@@ -152,7 +236,11 @@ public class Driver_Mechanum_GuntherExperiment extends LinearOpMode {
         // reset the orientation to zero if 90 was added to 270
         if (orientation == 360) {
             orientation = 0;
+
         }
     }
+
+
+
     
 }

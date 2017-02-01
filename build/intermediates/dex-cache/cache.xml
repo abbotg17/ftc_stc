@@ -106,7 +106,7 @@
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="6a72a0461aa515bee2ff5a2d278aa9e606113f17">
+        sha1="048a990aa6c3c17c88b0c43179434dcc13cb7e53">
         <dex dex="/Users/gta/Robotics/ftc_stc/TeamCode/build/intermediates/pre-dexed/debug/ftc_stc-FtcRobotController-unspecified_a4561b7b579e33abec113c45409396587209497a.jar" />
     </item>
     <item

@@ -34,7 +34,8 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegistrar;
 
-import org.firstinspires.ftc.teamcode.Old.Driver;
+import org.firstinspires.ftc.teamcode.Crap.K9botTeleopTank_Linear;
+import org.firstinspires.ftc.teamcode.Crap.SensorMRColor;
 
 
 /**
@@ -65,9 +66,16 @@ public class RegisterOpModes {
 
     @OpModeRegistrar
     public static void registerMyOpModes(OpModeManager manager) {
-        manager.register("Driver_Mechanum_Linear",Driver_Mechanum_Linear.class);
-        manager.register("Stupid", K9botTeleopTank_Linear.class);
-
+        manager.register("TestWheels",TestWheels.class);
+        manager.register("Kehoe Test", K9botTeleopTank_Linear.class);
+        manager.register("Gunther Test", Driver_Mechanum_GuntherExperiment.class);
+        manager.register("Mechanum tank mode yo", Driver_Mechanum_TankMode.class);
+        manager.register("color sensor", SensorMRColor.class);
+        manager.register("Red Auto", Auto_Mechanum.class);
+        manager.register("Blue Auto", Auto_Mechanum_2.class);
+        manager.register("Analog Drive",Driver_Mechanum_AnalogExperiment.class);
+        manager.register("Set background color", org.firstinspires.ftc.teamcode.Old.SensorMRColor.class);
+        manager.register("Test ODS", ODS_Test.class);
 
     }
 }

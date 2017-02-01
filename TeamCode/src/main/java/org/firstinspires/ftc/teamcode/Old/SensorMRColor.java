@@ -68,7 +68,8 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 public class SensorMRColor extends LinearOpMode {
 
   ColorSensor colorSensor;    // Hardware Device Object
-
+  ColorSensor colorSensor2;
+  ColorSensor colorSensor3;
 
   @Override
   public void runOpMode() throws InterruptedException {
@@ -88,13 +89,29 @@ public class SensorMRColor extends LinearOpMode {
     boolean bCurrState = false;
 
     // bLedOn represents the state of the LED.
-    boolean bLedOn = true;
+    boolean bLedOn = false;
 
     // get a reference to our ColorSensor object.
-    colorSensor = hardwareMap.colorSensor.get("color sensor");
+    colorSensor = hardwareMap.colorSensor.get("color1");
+    colorSensor2 = hardwareMap.colorSensor.get("color2");
+    colorSensor3 = hardwareMap.colorSensor.get("color3");
+
+/*
+      com.qualcomm.robotcore.hardware.I2cAddr color1Addr = new com.qualcomm.robotcore.hardware.I2cAddr(0x3c);
+      colorSensor.setI2cAddress(color1Addr);
+
+      com.qualcomm.robotcore.hardware.I2cAddr color2Addr = new com.qualcomm.robotcore.hardware.I2cAddr(0x3a);
+      colorSensor2.setI2cAddress(color2Addr);
+
+      com.qualcomm.robotcore.hardware.I2cAddr color3Addr = new com.qualcomm.robotcore.hardware.I2cAddr(0x3e);
+      colorSensor3.setI2cAddress(color3Addr);
+      */
+
 
     // Set the LED in the beginning
     colorSensor.enableLed(bLedOn);
+    colorSensor2.enableLed(false);
+    colorSensor3.enableLed(false);
 
     // wait for the start button to be pressed.
     waitForStart();
@@ -114,6 +131,8 @@ public class SensorMRColor extends LinearOpMode {
         colorSensor.enableLed(bLedOn);
       }
 
+
+
       // update previous state variable.
       bPrevState = bCurrState;
 
@@ -127,6 +146,11 @@ public class SensorMRColor extends LinearOpMode {
       telemetry.addData("Green", colorSensor.green());
       telemetry.addData("Blue ", colorSensor.blue());
       telemetry.addData("Hue", hsvValues[0]);
+      telemetry.addData("Red 2", colorSensor2.red());
+      telemetry.addData("Red 3", colorSensor3.red());
+      telemetry.addData("Blue 2", colorSensor2.blue());
+      telemetry.addData("Blue 3", colorSensor3.blue());
+
 
       // change the background color to match the color detected by the RGB sensor.
       // pass a reference to the hue, saturation, and value array as an argument
